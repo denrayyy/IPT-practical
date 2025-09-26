@@ -1,0 +1,53 @@
+{
+  "LibraryManagementSystem": {
+    "borrow": {
+      "borrow_transactionid": "AB31D",
+      "borrow_date": "2023-09-15",
+      "borrow_duedate": "2023-09-25",
+      "borrow_returndate": null,
+      "borrow_bookbatch": [
+        {
+          "batch_id": 10,
+          "books": [
+            {
+              "book_id": 1003,
+              "book_title": "Deep Work",
+              "authors": [
+                { "aut_id": 1, "aut_firstname": "Cal", "aut_lastname": "Newport" },
+                { "aut_id": 2, "aut_firstname": "Ben", "aut_lastname": "Horowitz" }
+              ]
+            },
+            {
+              "book_id": 1002,
+              "book_title": "The Hard Thing About Hard Things",
+              "authors": [
+                { "aut_id": 4, "aut_firstname": "Phil", "aut_lastname": "Knight" }
+              ]
+            },
+            {
+              "book_id": 1001,
+              "book_title": "Shoe Dog",
+              "authors": [
+                { "aut_id": 5, "aut_firstname": "Nick", "aut_lastname": "Bostrom" },
+                { "aut_id": 6, "aut_firstname": "Jim", "aut_lastname": "Bouton" },
+                { "aut_id": 7, "aut_firstname": "Josh", "aut_lastname": "Malerman" },
+                { "aut_id": 8, "aut_firstname": "Rober", "aut_lastname": "Kiyosaki" }
+              ]
+            }
+          ],
+          "student": {
+            "stud_id": "STUD-21378",
+            "stud_firstname": "JUAN",
+            "stud_middlename": "NAVARRO",
+            "stud_lastname": "DELA CRUZ",
+            "stud_address": "MALAYBALAY CIY, BUKIDNON",
+            "stud_gender": "MALE",
+            "stud_age": 20
+          }
+        }
+      ],
+      "borrow_fines": null,
+      "borrow_status": "Not Yet Returned"
+    }
+  }
+}
